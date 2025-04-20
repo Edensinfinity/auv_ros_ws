@@ -29,6 +29,11 @@ if __name__ == '__main__':
             videoIn = videoqueue.tryGet()
             if videoIn is not None:
                 frame=videoIn.getCvFrame()
-                ros_image = bridge.cv2_to_imgmsg(frame, encoding="bgr8")
+                
+                gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)                #Converting to Grayscale
+                edges = cv2.Canny(gray, 100, 200)                             #Doing Edge Detection
+                edges_colored = cv2.cvtColor(edges, cv2.COLOR_GRAY2BGR)       #Converting Back to Colour
+                
+                ros_image = bridge.cv2_to_imgmsg(edges_coloured, encoding="bgr8")
                 img_pub.publish(ros_image)
                 rospy.sleep(0.1)
