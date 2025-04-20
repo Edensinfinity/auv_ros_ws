@@ -9,5 +9,6 @@ Version 1: I have written a node that will get input of who it is that is talkin
 \
 Final Version: By Adding 1 or 2 to the beginning of your message, we figure out whether Jolyne is talking or Joestar.\
 Example: Typing '1Hello', will print "Jolyne: Hello", and typing '2Hi!!', will print "Joestar: Hi!!" \
+To get a feel of a chatroom, we can just look at the logs using rostopic echo /chat_topic \
 \
 P.S. I was suprised by the JoJo reference
