@@ -8,3 +8,5 @@ Then I started the pipeline with a video queue.\
 Then infinitely, frame tries to get an image from the videoqueue, and when it is present, cv2.imshow, shows the frame.\
 But before that I had to use getCvFrame(), to convert the raw videoIn into numpy array that OpenCV can use. Initially, I tried to just show the raw videoIn and it did not work.\
 Finally cv2.waitKey(1) gives a delay so that we dont fry our cpu, and so that there is enough time to process the image.\
+\
+Since I do not have access to a camera supporting depthai, the code may need changes.
