@@ -9,7 +9,7 @@ def image_callback(img):
     image=bridge.imgmsg_to_cv2(img, desired_encoding='bgr8')
     cv2.imshow("Image",image)
     cv2.waitKey(1)                          #To refresh the imshow() window
-    rospy.loginfo("Image is shown")
+    rospy.loginfo("Edge Detected Image is shown")
 
 if __name__ == '__main__':
     rospy.init_node("Camera_Subscriber")
