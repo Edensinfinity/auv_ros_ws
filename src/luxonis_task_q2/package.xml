@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>luxonis_task_q2</name>
+  <version>0.0.0</version>
+  <description>The luxonis_task_q2 package</description>
+  <maintainer email="mahalis.rayhan@gmail.com">Mahalis Rayhan</maintainer>
+  <license>TODO</license>
+  <author email="mahalis.rayhan@gmail.com">Mahalis Rayhan</author>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>opencv4</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>cv_bridge</build_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>opencv4</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>cv_bridge</exec_depend>
+
+  <export>
+  </export>
+</package>
