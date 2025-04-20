@@ -7,4 +7,7 @@ Once I put the rospy.sleep() it worked. \
 \
 Version 1: I have written a node that will get input of who it is that is talking and what their message is, since we cannot run the same node in two terminals getting who is talking at any moment is necessary. \
 \
-Final Version: By Adding 1 or 2 to the beginning of your message, we figure out whether Jolyne is talking or Joestar.
+Final Version: By Adding 1 or 2 to the beginning of your message, we figure out whether Jolyne is talking or Joestar.\
+Example: Typing '1Hello', will print "Jolyne: Hello", and typing '2Hi!!', will print "Joestar: Hi!!" \
+\
+P.S. I was suprised by the JoJo reference
