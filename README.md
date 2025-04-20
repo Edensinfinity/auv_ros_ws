@@ -1,8 +1,8 @@
-#AUV TASKS
-##Author Name: Mahalis Rayhan
-##Authour Roll Number: CS24B1095
+# AUV TASKS
+## Author Name: Mahalis Rayhan
+## Authour Roll Number: CS24B1095
 
-###About Me:
+### About Me:
 This is my first time properly using Github so it may be messy.
 Languages Known: Python, C
 Hobbies: Watching Anime, playing volleyball
