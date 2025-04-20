@@ -4,4 +4,6 @@ Then, I found out that I could send the image as an Image type by importing it f
 So, I changed the code to a ROS format, adding in the rosnode and publisher, etc.\
 I tried publishing the frame directly, but that didn’t work.\
 I found out that I had to use CVBridge, to convert the frame to a ROS Image Message.\
-Then, I made the subscriber node, and used CVBridge again to convert the ROS Image Message back into a CVimage which I could then show using the same commands as luxonis_task_q1.
+Then, I made the subscriber node, and used CVBridge again to convert the ROS Image Message back into a CVimage which I could then show using the same commands as luxonis_task_q1.\
+\
+Again, since I do not have access to a camera supporting depthai, the code supplied may need changes.
